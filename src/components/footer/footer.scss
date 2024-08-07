@@ -1,0 +1,8 @@
+@import "../../sass/functions";
+
+footer {
+    @include flex(row,flex-end,center);
+    padding-right: 5%;
+    height:5dvh;
+    background-color: rgb(85, 85, 85);
+}

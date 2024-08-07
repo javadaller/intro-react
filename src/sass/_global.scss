@@ -5,5 +5,10 @@ body {
     background-color: black;
     display: flex;
     @include flex(column,center,center);
-    height:100dvh;
+    @include box(100%,100dvh);
+    overflow: hidden;
+
+    #root {
+        @include box(100%);
+    }
 }

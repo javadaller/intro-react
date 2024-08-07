@@ -5,11 +5,13 @@ function Home() {
   return (
     <>
     <section id="home">
-      <h1>HELLO WORLD</h1>
 
-      <h3>What a beautifull page!!!</h3>
+        <input type="text" name="input" id="inputID" />
+        <input type="button" id="addButton" value="Add"/>
 
-      <p>Wow...</p>
+        <h2>Todos</h2>
+        <div id="todoList"></div>
+
     </section>
     </>
   )
