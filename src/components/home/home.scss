@@ -1,7 +1,14 @@
-@import "../../sass/functions";
+@import "../../sass/style";
 
 #home {
     color:pink;
     @include flex(column,center,center);
     height:80dvh;
+
+    #todoList {
+        .todo {
+            @include flex(row,center,center);
+        }
+    }
+
 }

@@ -5,8 +5,6 @@ import Header from './components/header/header'
 import Footer from './components/footer/footer'
 import './sass/style.scss'
 
-import { addTodo } from './ts/addTodo'
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <Header />
@@ -14,8 +12,3 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Footer />
   </React.StrictMode>,
 )
-
-const button: HTMLInputElement = document.querySelector('#addButton')!
-    button.addEventListener('click', () => {
-        addTodo()
-})

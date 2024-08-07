@@ -8,6 +8,8 @@ body {
     @include box(100%,100dvh);
     overflow: hidden;
 
+    font-family: Ubuntu;
+
     #root {
         @include box(100%);
     }
