@@ -1,0 +1,9 @@
+@use "extends";
+
+body {
+    color:white;
+    background-color: black;
+    display: flex;
+    @include flex(column,center,center);
+    height:100dvh;
+}
